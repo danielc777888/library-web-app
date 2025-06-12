@@ -1,4 +1,6 @@
-
+import Bookworms.Server
 
 main :: IO ()
-main = putStrLn "Hello Bookworm!"
+main = do
+  putStrLn "Hello Bookworm!"
+  runServer
